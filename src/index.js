@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './components/app';
+import App from './components/App';
 
-const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 ReactDOM.render(<App />, document.querySelector('.container'));
